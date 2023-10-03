@@ -1,6 +1,6 @@
 #header{
     padding: 28px;
-    background-image: url('/img/mainBG.png');
+    background-image: url('./src/img/mainBG.png');
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
