@@ -1,7 +1,6 @@
 #main{
     position: absolute;
     top: 199px;
-    /* display: none; */
 }
 .block__hero{
     display: flex;
@@ -135,3 +134,35 @@
 .modalMainActive{
     display: block;
 }
+.block{
+    display: none;
+}
+@media screen and (max-width: 390px){
+    .block__hero--top h1{
+        font-size: 40px;
+    }
+    .block__hero--top p{
+        width: 250px;
+
+    }
+    .main__backdrop{
+        width: 239px;
+        height: 377px;
+        position: absolute;
+        padding: 16px;
+        top: -79px;
+    }
+    .main__backdrop--close{
+        left: 189px;
+        z-index: 9;
+    }
+}
+/* @media screen and (max-width: 989px){
+    .block__hero--top h1{
+        color: var(--white, #FFF);
+    }
+    .block__hero--top p{
+        font-size: 16px;
+        width: 600px;
+    }
+} */

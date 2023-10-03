@@ -1,6 +1,7 @@
 @import url("./header/header.css");
 @import url("./main/main.css");
 @import url("./partners/partners.css");
+@import url("./items/items.css");
 *{
     margin: 0;
     padding: 0;

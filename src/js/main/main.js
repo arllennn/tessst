@@ -40,6 +40,11 @@ modalBtn.addEventListener('click', (e) => {
                     messageBackdrop.innerHTML = `
                         <h2>вы успешно вошли в аккаунт!</h2>
                     `
+                    backdropClose.addEventListener('click', () => {
+                        modalWrap.classList.remove('modalWrapActive')
+                        messageBackdrop.classList.remove('messageBackdropActive')
+                        messageBackdrop.innerHTML = ''
+                    })
                 } else {
                     messageBackdrop.innerHTML = `
                         <h2>Извините, что-то пошло не так. Повторите попытку позже</h2>
