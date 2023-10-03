@@ -49,8 +49,9 @@
 }
 .main__backdrop--close{
     position: relative;
-    right: -369px;
+    right: -7px;
     cursor: pointer;
+    overflow: hidden;
 }
 .main__backdrop--title h3{
     color: var(--bl, #101010);
@@ -153,7 +154,7 @@
         top: -79px;
     }
     .main__backdrop--close{
-        left: 189px;
+        right: 7px;
         z-index: 9;
     }
 }
