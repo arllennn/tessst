@@ -1,0 +1,137 @@
+#main{
+    position: absolute;
+    top: 199px;
+    /* display: none; */
+}
+.block__hero{
+    display: flex;
+    flex-direction: column;
+}
+.block__hero--top h1{
+    color: var(--white, #FFF);
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99%;
+    letter-spacing: 2.2px;
+}
+.block__hero--top p{
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; 
+    letter-spacing: 0.18px;
+}
+.block__hero--top button{
+    padding: 16px 80px;
+    border: none;
+    border-radius: 10px;
+    background: var(--orange, #F57520);
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.main__backdrop{
+    display: none;
+    background: white;
+    width: 419px;
+    height: 397px;
+    position: absolute;
+    padding: 16px;
+}
+.main__backdropActive{
+    display: block;
+}
+.main__backdrop--close{
+    position: relative;
+    right: -369px;
+    cursor: pointer;
+}
+.main__backdrop--title h3{
+    color: var(--bl, #101010);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.24px;
+    margin-top: 30px;
+}
+.main__backdrop--form__title{
+    color: var(--1-grey, #4C4C4C);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.main__backdrop--form__input{
+    width: 99%;
+    padding: 16px;
+    border-radius: 10px;
+    background: var(--bg, #F8F8F8);
+    border: none;
+    outline: none;
+}
+.main__backdrop--btn__apply{
+    padding: 16px 80px;
+    border-radius: 10px;
+    background: var(--orange, #F57520);
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123%;
+    border: none;
+    width: 99%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.main__backdrop--btn__links a{
+    color: var(--bl, #101010);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-decoration: none;
+    float: right;
+    margin-top: 17px;
+}
+.form__backdrop{
+    position: absolute;
+    display: none;
+    width: 400px;
+    height: 400px;
+}
+.form__backdropActive{
+    display: block;
+}
+.form__backdrop--title{
+    color: var(--bl, #101010);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.24px;
+}
+.form__backdrop2{
+    display: none;
+}
+.modalWrapActive{
+    display: none;
+}
+.messageBackdropActive{
+    display: block;
+}
+.modalMainActive{
+    display: block;
+}

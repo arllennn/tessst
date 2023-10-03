@@ -1,0 +1,17 @@
+.block__partners{
+    animation: slider 11s linear infinite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block__partners--img img{
+    width: 150px;
+}
+@keyframes slider {
+    0%{
+        transform: translateZ(0);
+    }
+    to{
+        transform: translate3d(-100%, 0, 0);
+    }
+}
