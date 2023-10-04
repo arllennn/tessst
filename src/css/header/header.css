@@ -40,23 +40,6 @@
    scale: 1.1;
    transition: .3s ease-in-out;
 }
-@media screen and (max-width: 390px){
-    #header{
-        background: url('../../img/mainBG.png') center center/cover no-repeat;
-    }
-    .block__header{
-        justify-content: center;
-        gap: 11px;
-    }
-    .block__header--nav__menu{
-        padding-right: 19px;
-        padding-left: 19px;
-    }
-    .block__header--logo a img{
-        width: 65px;
-        height: 35px;
-    }
-}
 @media screen and (max-width: 1336px){
     .backdrop{
         display: block;
@@ -119,4 +102,20 @@
         font-weight: 600;
     }
 }
-
+@media screen and (max-width: 390px){
+    #header{
+        background: url('../../img/mainBG.png') center center/cover no-repeat;
+    }
+    .block__header{
+        justify-content: center;
+        gap: 11px;
+    }
+    .block__header--nav__menu{
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+    .block__header--logo a img{
+        width: 65px;
+        height: 35px;
+    }
+}
