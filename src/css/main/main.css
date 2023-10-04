@@ -140,12 +140,19 @@
 }
 @media screen and (max-width: 989px){
     .block__hero--top h1{
-        color: var(--white, #FFF);
         font-size: 60px;
     }
     .block__hero--top p{
         font-size: 16px;
         width: 600px;
+    }
+}
+@media screen and (max-width: 769px){
+    .block__hero--top h1{
+        font-size: 50px;
+    }
+    .block__hero--top p{
+        width: 500px;
     }
 }
 @media screen and (max-width: 390px){
