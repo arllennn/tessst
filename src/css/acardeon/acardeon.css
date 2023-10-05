@@ -1,0 +1,22 @@
+.block__acardeon{
+    display: flex;
+    flex-direction: column;
+}
+.block__acardeon--content{
+    display: flex;
+    flex-direction: column;
+}
+.block__acardeon--content__top--wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.block__acardeon--content__top{
+    border: 1px solid black;
+    padding: 19px;
+}
+.block__acardeon--content__bottom{
+    display: none;
+}
+.block__acardeon--content__active .block__acardeon--content__bottom{
+    display: block;
+}

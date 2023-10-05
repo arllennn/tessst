@@ -5,6 +5,7 @@
 @import url("./category/category.css");
 @import url("./info/info.css");
 @import url("./models/models.css");
+@import url("./acardeon/acardeon.css");
 *{
     margin: 0;
     padding: 0;
