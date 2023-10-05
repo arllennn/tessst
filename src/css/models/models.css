@@ -1,0 +1,30 @@
+.block__models--left__card{
+    display: flex;
+    justify-content: center;
+    gap: 99px;
+}
+.block__models--left__card--wrap{
+    display: flex;
+    flex-direction: column;
+}
+.block__models--left__card img{
+    width: 268px;
+    height: 287px;
+}
+.block__models--left__card h3{
+    overflow: hidden;
+    color: var(--bl, #101010);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+}
+.block__models--left__card p{
+    color: var(--2-grey, #777);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123%;
+}

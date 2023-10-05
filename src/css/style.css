@@ -4,6 +4,7 @@
 @import url("./items/items.css");
 @import url("./category/category.css");
 @import url("./info/info.css");
+@import url("./models/models.css");
 *{
     margin: 0;
     padding: 0;

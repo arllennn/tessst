@@ -49,6 +49,10 @@
     transition: .4s ease-in-out;
 }
 @media screen and (max-width: 390px){
+    #section__info{
+        background-position: center;
+        background-size: cover;
+    }
     .block__info--bottom__global--wrap h3{
         font-size: 17px;
     }
