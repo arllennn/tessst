@@ -6,6 +6,7 @@
 @import url("./info/info.css");
 @import url("./models/models.css");
 @import url("./acardeon/acardeon.css");
+@import url("./advantages/advantages.css");
 *{
     margin: 0;
     padding: 0;

@@ -147,24 +147,20 @@
         width: 600px;
     }
 }
-@media screen and (max-width: 769px){
+@media screen and (max-width: 699px){
     .block__hero--top h1{
         font-size: 50px;
     }
     .block__hero--top p{
-        width: 500px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 390px){
     .block__hero--top h1{
         font-size: 40px;
     }
-    .block__hero--top p{
-        width: 250px;
-
-    }
     .main__backdrop{
-        width: 209px;
+        width: 200px;
         height: 377px;
         position: absolute;
         padding: 16px;

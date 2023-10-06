@@ -20,6 +20,16 @@
         width: 99px;
     }
 }
+@media screen and (max-width: 989px){
+    .block__partners--img img{
+        width: 89px;
+    }
+}
+@media screen and (max-width: 609px){
+    .block__partners--img img{
+        width: 79px;
+    }
+}
 @media screen and (max-width: 390px){
     .block__partners{
         overflow: hidden;

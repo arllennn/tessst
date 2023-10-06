@@ -1,0 +1,91 @@
+.block__advantages{
+    display: flex;
+    justify-content: space-between;
+}
+.block__advantages--left{
+    background-image: url("../../img/Rectangle\ 148.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 630px;
+    min-height: 474px;
+}
+.block__advantages--center{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 30px;
+}
+.block__advantages--center__top--cards__card{
+    border-radius: 10px;
+    background: var(--or2, #EB6B16);
+    width: 290px;
+    height: 267px;
+    margin-bottom: 19px;
+}
+.block__advantages--center__top--cards__card{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.block__advantages--center__top--cards__card h2{
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    width: 211px;
+}
+.block__advantages--center__top--cards__card p{
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; 
+    width: 221px;
+}
+.block__advantages--center__top--cards__card a{
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123%;
+    text-decoration: none;
+}
+.block__advantages--right{
+    background-image: url("../../img/Rectangle\ 149.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 210px;
+    min-height: 574px;
+}
+@media screen and (max-width: 1200px){
+    .block__advantages--left{
+       display: none;
+    }
+    .block__advantages--center{
+        margin: auto;
+    }
+    .block__advantages--right{
+        display: none;
+     }
+}
+
+@media screen and (max-width: 780px){
+    .block__advantages--center{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .block__advantages--left{
+        display: none;
+    }
+    .block__advantages--right{
+        display: none;
+    }
+}

@@ -89,10 +89,17 @@
         width: 100%;
     }
 }
+@media screen and (max-width: 672px){
+    .block__models h2{
+        font-size: 40px;
+        width: 100%;
+        padding: 17px;
+    }
+}
 @media screen and (max-width: 390px){
     .block__models h2{
         font-size: 30px;
-        width: 280px;
+        width: 100%;
         padding: 17px;
     }
 }
