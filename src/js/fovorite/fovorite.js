@@ -1,24 +1,24 @@
 const newData = [
     {
-        img: '/src/img/favorite img-1.png',
+        img: './src/img/favorite img-1.png',
         title: '25.01.2023',
         link: '#обзор',
         subtitle: 'BMC Kaius 01 идеальный гоночный гравийный велосипед',
     },
     {
-        img: '/src/img/favorite img-2.png',
+        img: './src/img/favorite img-2.png',
         title: '24.01.2023',
         link: '#обзор',
         subtitle: 'Первые поездки на новой гоночной ракете Wilier Urta SLR 100mm XC MTB, всего 9,8 кг!',
     },
     {
-        img: '/src/img/favorite img-3.png',
+        img: './src/img/favorite img-3.png',
         title: '24.01.2023',
         link: '#обзор',
         subtitle: 'Все новые гоночные велосипеды BMC Fourstroke XC оснащены волшебным подседельным штырем Autodrop.',
     },
     {
-        img: '/src/img/favorite img-1.png',
+        img: './src/img/favorite img-1.png',
         title: '24.01.2023',
         link: '#обзор',
         subtitle: 'Велосипед Wilier Grantismo SLR для шоссейных гонок',
