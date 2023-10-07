@@ -1,6 +1,5 @@
 #section__items{
     background: var(--bg, #F8F8F8);
-    padding: 100px;
 }
 .swiper .swiper-wrapper .swiper-slide{
     display: flex;

@@ -28,7 +28,7 @@
     line-height: 160%;
     letter-spacing: 0.18px;
 }
-.block__acardeon--content__bottom p{
+.block__acardeon--content__bottom{
     color: var(--1-grey, #4C4C4C);
     font-family: Inter;
     font-size: 16px;
@@ -50,7 +50,11 @@
     rotate: 180deg;
 }
 @media screen and (max-width: 390px){
-    .block__acardeon--content__bottom p{
-        width: 200px;
+    .block__acardeon--content__bottom{
+        overflow: auto;
+        max-width: 95%;
+        padding: 12px 4px;
+        margin: 0 auto;
+        max-height: 100%;
     }
 }
