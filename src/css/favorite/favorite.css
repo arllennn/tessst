@@ -56,13 +56,17 @@
 @media screen and (max-width: 950px){
     .block__favorite{
         flex-direction: column-reverse;
-        gap: 19px
-        
+        gap: 19px; 
     }
     .block__favorite--right__img {
         width: 350px;
     }
     .block__favorite--subtitle{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 390px){
+    .block__favorite--right__img {
         width: 100%;
     }
 }

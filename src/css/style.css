@@ -9,6 +9,7 @@
 @import url("./advantages/advantages.css");
 @import url("./custom/custom.css");
 @import url("./favorite/favorite.css");
+@import url("./contacts/contacts.css");
 *{
     margin: 0;
     padding: 0;
