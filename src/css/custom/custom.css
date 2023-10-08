@@ -63,7 +63,12 @@
     }
 }
 @media screen and (max-width: 390px){
+    .block__custom h2{
+        width: 100%;
+        font-size: 39px;
+    }
     .block__custom--cards__card h3{
         width: 100%;
+        font-size: 16px;
     }
 }

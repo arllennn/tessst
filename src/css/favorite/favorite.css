@@ -66,6 +66,13 @@
     }
 }
 @media screen and (max-width: 390px){
+    .section__favorite--h2{
+        width: 100%;
+        font-size: 39px;
+    }
+    .block__favorite--left__img {
+        width: 100%;
+    }
     .block__favorite--right__img {
         width: 100%;
     }

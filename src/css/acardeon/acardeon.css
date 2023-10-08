@@ -45,9 +45,10 @@
 }
 .block__acardeon--content__active .block__acardeon--content__bottom{
     display: block;
+    transition: 2s;
 }
-.block__acardeon--content__active .block__acardeon--content__active--top__wrap--svg__active{
-    rotate: 180deg;
+.block__acardeon--content__active .active{
+    transform: rotate(180deg);
 }
 @media screen and (max-width: 390px){
     .block__acardeon--content__bottom{
