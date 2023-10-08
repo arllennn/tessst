@@ -68,23 +68,30 @@ category(data)
 
 
 const categoryInput = document.querySelector('.block__category--left__input')
-// const categoryBtn = document.querySelector('.block__category--left__btn')
+
 
 const search = () => {
     categoryInput.addEventListener('input', () => {
-        const filterData = data.filter(item => item.title.toLowerCase().includes(categoryInput.value.toLowerCase()));
-        category(filterData);
-    });
+        const filterData = data.filter(item => item.title.toLowerCase().includes(categoryInput.value.toLowerCase()))
+        category(filterData)
+    })
+
+    const btn = document.querySelector('.block__category--left__btn')
+    btn.addEventListener('click', () => {
+        const filterData = data.filter(item => item.title.toLowerCase().includes(categoryInput.value.toLowerCase()))
+       category(filterData)
+    })
 };
 search();
 
-const categorySelect = document.querySelector('.block__category--left__select');
+const categorySelect = document.querySelector('.block__category--left__select')
 
 const select = () => {
     categorySelect.addEventListener('change', () => {
        if(categorySelect){
         const selectValue = categorySelect.value;
-        const newFilterData = data.filter(item => item.price === selectValue);
+        const newFilterData = data.filter((item => item.price === selectValue) || data.filter(item => item.title === selectValue))  
+        //const newFilterData = 
         category(newFilterData);
        }
        if(categorySelect.value === 'категории по ценам'){
@@ -94,3 +101,4 @@ const select = () => {
 };
 
 select();
+

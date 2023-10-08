@@ -48,6 +48,20 @@
     margin-top: 16px;
     cursor: pointer;
 }
+.block__category--left__btn{
+    padding: 11px 29px;
+    border-radius: 10px;
+    background: var(--orange, #b66c3a);
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123%;
+    border: none;
+    margin-top: 16px;
+    cursor: pointer;
+}
 .category-btn:hover{
     background: #cb7136;
 }
@@ -82,5 +96,8 @@
     }
     .category-title{
         width: 100%;
+    }
+    .category-btn{
+        margin-left: 89px;
     }
 }

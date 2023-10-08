@@ -18,7 +18,7 @@
     height: 287px;
 }
 .block__custom--cards__card h3{
-    color: var(--bl, #101010);
+    color: var(--bl, white);
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
@@ -27,7 +27,7 @@
     letter-spacing: 0.18px;
 }
 .block__custom--cards__card p{
-    color: var(--2-grey, #777);
+    color: var(--2-grey, white);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;

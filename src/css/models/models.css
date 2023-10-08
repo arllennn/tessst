@@ -16,8 +16,8 @@
 }
 .block__models--left__card{
     display: flex;
-    justify-content: center;
-    gap: 99px;
+    justify-content: space-between;
+    gap: 19px;
 }
 .block__models--left__card--wrap{
     display: flex;

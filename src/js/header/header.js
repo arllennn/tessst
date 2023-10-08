@@ -11,6 +11,6 @@ qrcodeBtn.addEventListener('click', () => {
     qrcode.classList.toggle('qrcode__active')
     setTimeout(() => {
         qrcode.classList.remove('qrcode__active')
-    }, 11000)
+    }, 19000)
 })
 
