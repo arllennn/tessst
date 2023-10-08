@@ -1,6 +1,16 @@
 #main{
     position: absolute;
     top: 199px;
+    opacity: 0;
+    animation: fadein 1s ease-in-out forwards;
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .block__hero{
     display: flex;

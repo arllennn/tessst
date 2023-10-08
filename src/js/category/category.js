@@ -36,7 +36,6 @@ const data = [
         button: 'В 1 клик',
     }
 ]
-
 const blockCategoryRight = document.querySelector('.block__category--right')
 
 const category = (data) => {
@@ -66,10 +65,7 @@ const category = (data) => {
 }
 category(data)
 
-
 const categoryInput = document.querySelector('.block__category--left__input')
-
-
 const search = () => {
     categoryInput.addEventListener('input', () => {
         const filterData = data.filter(item => item.title.toLowerCase().includes(categoryInput.value.toLowerCase()))
@@ -81,24 +77,21 @@ const search = () => {
         const filterData = data.filter(item => item.title.toLowerCase().includes(categoryInput.value.toLowerCase()))
        category(filterData)
     })
-};
-search();
+}
+search()
 
 const categorySelect = document.querySelector('.block__category--left__select')
-
 const select = () => {
     categorySelect.addEventListener('change', () => {
        if(categorySelect){
         const selectValue = categorySelect.value;
-        const newFilterData = data.filter((item => item.price === selectValue) || data.filter(item => item.title === selectValue))  
-        //const newFilterData = 
+        const newFilterData = data.filter((item => item.price === selectValue))  
         category(newFilterData);
        }
        if(categorySelect.value === 'категории по ценам'){
         category(data)
        }
-    });
-};
-
-select();
+    })
+}
+select()
 
