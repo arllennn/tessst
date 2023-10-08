@@ -62,6 +62,9 @@
     width: 210px;
     min-height: 574px;
 }
+.block__advantages--center__top--cards__card:hover{
+    background:#dc5800;
+}
 @media screen and (max-width: 1200px){
     .block__advantages--left{
        display: none;

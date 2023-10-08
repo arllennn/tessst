@@ -11,6 +11,7 @@
 @import url("./favorite/favorite.css");
 @import url("./contacts/contacts.css");
 @import url("./footer/footer.css");
+@import url("./modal/modal.css");
 *{
     margin: 0;
     padding: 0;
