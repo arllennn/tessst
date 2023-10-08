@@ -13,3 +13,4 @@ qrcodeBtn.addEventListener('click', () => {
         qrcode.classList.remove('qrcode__active')
     }, 11000)
 })
+

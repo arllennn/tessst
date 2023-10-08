@@ -98,7 +98,7 @@
         left: -100%;
         top: 0;
         width: 55%;
-        background: var(--bg, #f8f8f8);
+        background: var(--bg, black);
         height: 100vh;
         min-height: 700px;
         display: flex;
@@ -128,7 +128,7 @@
     .nav__link{
         font-size: 19px;
         font-weight: 600;
-        color: black;
+        color: white;
     }
     .contacts__search--blocks{
         display: none;

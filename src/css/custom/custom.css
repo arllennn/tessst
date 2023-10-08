@@ -57,6 +57,10 @@
 .customCardActive{
     display: block;
 }
+#section__custom {
+    height: 400px;
+    overflow-y: scroll; 
+}
 @media screen and (max-width: 1109px){
     .block__custom--cards{
         display: flex;
