@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     margin-top: 19px;
-    gap: 19px;
+    gap: 99px;
 }
 .block__contacts--left h2{
     color: var(--bl, #101010);
@@ -52,7 +52,10 @@
     flex-direction: column;
 }
 @media screen and (max-width: 490px){
-    .block__contacts--right__icon--contact__globa{
+    .block__contacts--right{
+        display: none;
+    }
+    .block__contacts--right__icon--contact__global{
         display: flex;
         flex-direction: column;
     }
