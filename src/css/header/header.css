@@ -134,7 +134,7 @@
         display: none;
     }
 }
-@media screen and (max-width: 890px){
+@media screen and (max-width: 1090px){
     #header{
         background: url('../../img/mainBG.png') center center/cover no-repeat;
     }

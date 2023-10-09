@@ -4,8 +4,8 @@ function openModal() {
   
     
     setTimeout(function() {
-      const closeButton = document.querySelector(".close__modalka")
-      closeButton.addEventListener('click', () => {
+       const closeButton = document.querySelector(".close__modalka")
+       closeButton.addEventListener('click', () => {
         modal.style.display = "none"
       })
     }, 5000)
@@ -16,4 +16,3 @@ function openModal() {
     modal.style.display = "none"
 }
 setInterval(openModal, 120000)
-  

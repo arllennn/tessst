@@ -55,7 +55,7 @@
     .swiper .swiper-wrapper .swiper-slide h3{
         font-size: 10px;
         width: 100%;
-    }
+    }  
 }
 @media screen and (max-width: 390px){
     .block__items--card__left{
